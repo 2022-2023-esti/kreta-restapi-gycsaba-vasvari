@@ -24,4 +24,12 @@ public class Subject {
 
     @Column(name="subjectname",nullable = false,unique = true)
     String subjectName;
+
+    @Override
+    public String toString() {
+        return "Subject{" +
+                "id=" + id +
+                ", subjectName='" + subjectName + '\'' +
+                '}';
+    }
 }
