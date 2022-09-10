@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Setter
 @Getter
@@ -13,5 +14,6 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 
 @Entity
+@Table(name="subject")
 public class Subject {
 }
