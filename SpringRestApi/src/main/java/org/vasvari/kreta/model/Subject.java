@@ -21,4 +21,7 @@ public class Subject {
     @Id
     @Column(name="id",nullable = false)
     Long id;
+
+    @Column(name="subjectname",nullable = false,unique = true)
+    String subjectName;
 }
