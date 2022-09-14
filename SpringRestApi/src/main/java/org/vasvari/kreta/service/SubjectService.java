@@ -24,4 +24,9 @@ public class SubjectService {
         return subjectRepository.findById(id).get();
     }
 
+    public void saveOrUpdate(Subject subject) {
+        subjectRepository.save(subject);
+    }
+
+
 }
