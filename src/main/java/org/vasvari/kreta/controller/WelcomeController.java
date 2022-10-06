@@ -14,4 +14,8 @@ public class WelcomeController {
     public String welcome() {
         return "welcome";
     }
+
+    @GetMapping("/tmp")
+    public String check() { return "check";}
+
 }

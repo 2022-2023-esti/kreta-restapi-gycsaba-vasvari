@@ -20,7 +20,6 @@ public class SubjectController {
     SubjectService service;
 
     //https://www.baeldung.com/spring-boot-crud-thymeleaf?fbclid=IwAR2czivf1vO9ywPVVRhOXrytgvHRXEuDv0zLD5WOTGPNIl3N3kJ5uKBthtE
-    // http://localhost:7777/swagger-ui/index.html
     @GetMapping("/subject/index")
     public String showSubjectList(Model model)
     {
